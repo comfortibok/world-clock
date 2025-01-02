@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="src/index.css" />
-</head>
 
-<body>
+    <!-- Moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
+  </head>
+
+  <body>
     <div class="container">
-        <h1>World Clock</h1>
-        <select>
-            <option value="">Lagos</option>
-            <option value="">Texas</option>
-            <option value="">Ontario</option>
-        </select>
+      <h1>World Clock</h1>
+      <select>
+        <option value="">Lagos</option>
+        <option value="">Texas</option>
+        <option value="">Ontario</option>
+      </select>
 
-        <div class="city">
-            <div>
-                <h3>Los Angeles</h3>
-                <span>August 15th 2022</span>
-            </div>
-            <h2>1:48:15<small>AM</small></h2>
+      <div class="city" id="losAngeles">
+        <div>
+          <h3>Los Angeles 🇺🇸</h3>
+          <span></span>
         </div>
+        <h2><small></small></h2>
+      </div>
 
-        <div class="city">
-            <div>
-                <h3>Paris</h3>
-                <span>August 15th 2022</span>
-            </div>
-            <h2>1:48:15<small>AM</small></h2>
+      <div class="city" id="paris">
+        <div>
+          <h3>Paris 🇫🇷</h3>
+          <span></span>
         </div>
+        <h2><small></small></h2>
+      </div>
     </div>
 
     <footer>
-        This project was coded by <strong>Comfort Ibok</strong> and is open
-        sourced on
-        <a href="https://github.com/comfortibok/world-clock" target="_blank">GitHub</a>
+      This project was coded with ❤️ by <strong>Comfort Ibok</strong> and is
+      open sourced on
+      <a href="https://github.com/comfortibok/world-clock" target="_blank"
+        >GitHub</a
+      >
     </footer>
 
     <script src="src/index.js"></script>
-</body>
-
+  </body>
 </html>
