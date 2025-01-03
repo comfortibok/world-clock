@@ -16,28 +16,31 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
-        <option value="">Lagos</option>
-        <option value="">Texas</option>
-        <option value="">Ontario</option>
+      <select id="city">
+        <option value="">Select a city</option>
+        <option value="Africa/Lagos 🇳🇬">Lagos</option>
+        <option value="America/Chicago 🇺🇸">Texas</option>
+        <option value="America/Toronto 🇨🇦">Ontario</option>
       </select>
 
-      <div class="city" id="losAngeles">
-        <div>
-          <h3>Los Angeles 🇺🇸</h3>
-          <span></span>
+      <div id="cities">
+        <div class="city" id="losAngeles">
+          <div>
+            <h3>Los Angeles 🇺🇸</h3>
+            <span></span>
+          </div>
+          <h2><small></small></h2>
         </div>
-        <h2><small></small></h2>
-      </div>
 
-      <div class="city" id="paris">
-        <div>
+        <div class="city" id="paris">
+          <div>
           <h3>Paris 🇫🇷</h3>
           <span></span>
         </div>
         <h2><small></small></h2>
       </div>
     </div>
+</div>
 
     <footer>
       This project was coded with ❤️ by <strong>Comfort Ibok</strong> and is
